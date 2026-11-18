@@ -1,0 +1,446 @@
+@font-face {
+    font-family: "Louies";
+    src: url("fonts/LouiesHandwriting-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Boleh";
+    src: url("fonts/Boleh.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Amy";
+    src: url("fonts/amyshandwriting.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #f9f3eb;
+}
+
+.banner {
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0%;
+}
+
+.describe-section {
+    padding:10px 20px
+}
+
+.describe-title {
+    margin: 0;
+    font-family: "Boleh", sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    color: #67472e;
+}
+
+.describe-desc {
+    margin: 10px 0 0;
+    font-family: "Amy", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #67472e;
+}
+
+.tag-section {
+    padding: 5px 20px
+}
+
+.tag-list {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.tag-item {
+    display: inline-block;
+    padding: 6px 13px;
+    background-color: #81b466;
+    color: #ffffff;
+    font-family: "Louies", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.tag-item:hover {
+        transform: translateY(-2px);
+        background-color: #6e9e54;
+}
+
+.tnc-content {
+    font-family: "Louies", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    max-height: 60vh;
+    overflow-y: auto;
+    margin-top: 10px;
+}
+
+.tnc-content p {
+    margin: 0 0 12px 0;
+    font-family: "Amy", sans-serif;
+    color: #67472e;
+    font-size: 18px;
+}
+
+.tnc-content p:last-child {
+    margin-bottom: 0;
+}
+
+.rush-content {
+    font-family: "Louies", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    max-height: 60vh;
+    overflow-y: auto;
+    margin-top: 10px;
+}
+
+.rush-content p {
+    margin: 0 0 12px 0;
+    font-family: "Amy", sans-serif;
+    color: #67472e;
+    font-size: 18px;
+}
+
+.rush-content p:last-child {
+    margin-bottom: 0;
+}
+
+.search-section {
+    padding: 5px 20px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 6px 18px;
+    background-color: #67472e;
+    border: 1px solid #67472e;
+    border-radius: 7px;
+}
+
+.search-box input {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: "Louies", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.search-box input::placeholder {
+    color: #ffffff;
+}
+
+.search-box:hover {
+        transform: translateY(-2px)
+}
+
+.category-section {
+    padding: 5px 20px;
+    width: 100%;
+}
+
+.category-list {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-top: 2px;
+    white-space: nowrap;
+    scrollbar-width: none;
+}
+
+.category-list button {
+    flex: 0 0 auto;
+    padding: 6px 15px;
+    border: none;
+    border-radius: 7px;
+    font-family: "Louies", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #67472e;
+    cursor: pointer;
+    background-color: #f9c361;
+    transition: background-color 0.2s;
+}
+
+.category-list button:hover {
+        transform: translateY(-2px)
+}
+
+.category-list button.active {
+    background-color: #eea659;
+}
+
+.catalog-section {
+    background-color: #f0afb3;
+    margin: 10px 20px 30px 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 12px;
+}
+
+@media (min-width: 768px) {
+    .product-grid {grid-template-columns: repeat(3, 1fr);
+    gap : 16px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .product-grid {grid-template-columns: repeat(4, 1fr);
+    gap : 20px;
+    }
+}
+
+.product-card {
+    background-color: #f9f3eb;
+    padding: 12px;
+    border-radius: 8px;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+}
+
+.product-card:hover {
+    transform: translateY(-4px);
+}
+
+.product-image {
+    width: 100%;
+    overflow: hidden;
+    background-color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.product-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+
+.product-title {
+    margin: 0;
+    font-family: "Boleh", sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    color: #a54c36;
+    line-height: 1.1;
+}
+
+.product-category {
+    margin: 2px 0 0 0;
+    font-family: "Louies", sans-serif;
+    font-size: 18px;
+    color: #a54c36;
+}
+
+.product-price {
+    background-color: #81b466;
+    color: #ffffff;
+    padding: 3px 8px;
+    text-align: center;
+    border-radius: 20px;
+    font-family: "Louies", sans-serif;
+    font-size: 20px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.product-price:hover,
+.product-price.active {
+    background-color: #67472e;
+}
+
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.modal-overlay.show {
+    display: flex;
+}
+
+.modal-box {
+    background-color: #f0afb3;
+    width: 100%;
+    max-width: 480px;
+    max-height: 90vh;
+    overflow-y: auto;
+    border-radius: 15px;
+    padding: 18px;
+    position: relative;
+}
+
+.modal-close {
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    background: #67472e;
+    color: #ffffff;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.modal-top {
+    background-color: #e8a964;
+    padding: 16px;
+    border-radius: 10px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+.modal-img {
+    width: 45%;
+    aspect-ratio: 1 / 1;
+    background-color: #ffffff;
+    padding: 6px;
+    border-radius: 6px;
+    flex-shrink: 0;
+}
+
+.modal-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.modal-details {
+    flex: 1;
+    color: #ffffff;
+}
+
+.modal-title {
+    background-color: #67472e;
+    color: #ffffff;
+    font-family: "Boleh", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 6px 14px;
+    border-radius: 20px;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+.details-heading p {
+    margin: 0 0 4px 0;
+    font-size: 16px;
+    font-family: "Amy", sans-serif;
+}
+
+.details-heading ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.3;
+    font-family: "Amy", sans-serif;
+}
+
+.modal-price {
+    text-align: right;
+    font-size: 18px;
+    margin-top: 12px;
+    font-family: "Amy", sans-serif;
+}
+
+.modal-bottom {
+    background-color: #67472e;
+    padding: 18px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.order-text {
+    font-family: "Amy", sans-serif;
+    font-size: 15px;
+    white-space: pre-wrap;
+    margin: 0 0 18px 0;
+    line-height: 1.4;
+}
+
+.modal-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.action-btn {
+    display: block;
+    width: 100%;
+    background-color: #81b466;
+    color: #ffffff;
+    font-family: "Boleh", sans-serif;
+    font-size: 13px;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.action-btn:hover {
+    background-color: #6e9e54;
+}
