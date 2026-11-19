@@ -31,7 +31,7 @@ body {
 
 .banner {
     width: 100%;
-    padding: 10px 20px;
+    padding: 0;
 }
 
 .banner img {
@@ -42,21 +42,29 @@ body {
 }
 
 .describe-section {
-    padding:10px 20px
+    padding:10px 20px;
 }
 
 .describe-title {
     margin: 0;
     font-family: "Boleh", sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: normal;
     color: #67472e;
 }
 
 .describe-desc {
-    margin: 10px 0 0;
+    margin: 0px 0 0;
     font-family: "Amy", sans-serif;
     font-size: 16px;
+    font-weight: normal;
+    color: #67472e;
+}
+
+.describe-subdesc {
+     margin: 0px 0 0;
+    font-family: "Amy", sans-serif;
+    font-size: 13px;
     font-weight: normal;
     color: #67472e;
 }
@@ -139,7 +147,7 @@ body {
     align-items: center;
     max-width: 100%;
     margin: 0 auto;
-    padding: 6px 18px;
+    padding: 6px 20px;
     background-color: #67472e;
     border: 1px solid #67472e;
     border-radius: 7px;
@@ -166,13 +174,13 @@ body {
 }
 
 .category-section {
-    padding: 5px 20px;
+    padding: 4px 20px;
     width: 100%;
 }
 
 .category-list {
     display: flex;
-    gap: 8px;
+    gap: 6px;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     padding-top: 2px;
@@ -204,15 +212,15 @@ body {
 
 .catalog-section {
     background-color: #f0afb3;
-    margin: 10px 20px 30px 20px;
-    padding: 20px;
-    border-radius: 15px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 0px;
 }
 
 .product-grid {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 12px;
+    gap: 10px;
 }
 
 @media (min-width: 768px) {
@@ -230,11 +238,16 @@ body {
 .product-card {
     background-color: #f9f3eb;
     padding: 12px;
-    border-radius: 8px;
+    border-radius: 7px;
     transition: transform 0.2s;
     display: flex;
-    flex-direction: column; 
-    justify-content: space-between;
+    flex-direction: column;
+}
+
+.image-slider-wrapper {
+    position: relative;
+    width: 100%;
+    margin-bottom: 14px;
 }
 
 .product-card:hover {
@@ -243,32 +256,76 @@ body {
 
 .product-image {
     width: 100%;
-    overflow: hidden;
+    aspect-ratio: 1 / 1;
     background-color: #ffffff;
-    margin-bottom: 10px;
+    border-radius: 6px;
+    margin-bottom: 14px;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+.image-slider-wrapper .product-image {
+    margin-bottom: 0;
+}
+
+.product-image::-webkit-scrollbar {
+    display: none;
+}
+
+.slider-dots {
+    position: absolute;
+    bottom: 6px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 5px;
+    background-color: rgba(103, 71, 46, 0.45);
+    padding: 4px 7px;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.slider-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.slider-dot.active {
+    background-color: #ffffff;
+    transform: scale(1.2);
 }
 
 .product-image img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+    object-fit: contain;
     display: block;
 }
 
 .product-info {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 8px;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: 1;
+    margin-bottom: 10px;
 }
 
 .product-title {
     margin: 0;
     font-family: "Boleh", sans-serif;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: normal;
     color: #a54c36;
-    line-height: 1.1;
+    line-height: 1.2;
 }
 
 .product-category {
@@ -281,13 +338,14 @@ body {
 .product-price {
     background-color: #81b466;
     color: #ffffff;
-    padding: 3px 8px;
+    padding: 5px 2px;
     text-align: center;
     border-radius: 20px;
     font-family: "Louies", sans-serif;
     font-size: 20px;
     white-space: nowrap;
     cursor: pointer;
+    margin-top: auto;
 }
 
 .product-price:hover,
