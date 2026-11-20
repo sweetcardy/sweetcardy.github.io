@@ -1,4 +1,4 @@
-const nomorWhatsApp = "083178543794";
+const nomorWhatsApp = "6283178543794";
 const usernameTelegram = "memaayu";
 
 const searchInput = document.querySelector(".search-box input");
