@@ -26,16 +26,15 @@ const rushBtn = document.getElementById("rushBtn");
 const rushModal = document.getElementById("rushModal");
 const closeRushModal = document.getElementById("closeRushModal");
 
-// 1. DATA PRODUK (Harus di atas sebelum rendering)
 const dataProduk = {
     "mytotebag": {
         title: "My Tote Bag",
         category: "Flower Art",
         price: "Rp8.000",
-        images: ["images/mytotebag.PNG"], // Jika ada 2 foto, tulis: ["images/mytotebag.PNG", "images/mytotebag-2.PNG"]
+        images: ["images/mytotebag.PNG", "images/61.PNG"],
         recolor: "Available recolor",
         pics: "-",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : MY TOTE BAG
@@ -235,6 +234,70 @@ Payment : Qris
 - You are the best part of my life, the one who makes my heart race and my soul feel at peace. i'm so blessed to have you, and i can't wait to see what the future holds for us... : (max 300 characters)`
     },
 
+    "blossom": {
+        title: "Ppt-Blossom",
+        category: "Ppt/Pdf, Mensive Edition, Best Seller",
+        price: "Rp16.000",
+        images: ["images/63.PNG", "images/63.1.PNG", "images/63.2.PNG", "images/63.3.PNG", "images/63.4.PNG", "images/63.5.PNG"],
+        recolor: "Unavailable recolor",
+        pics: "13 pics required",
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+
+Buyer name : (wajib isi) 
+Code : PPT — BLOSSOM
+Price : 16.000 IDR
+Pict   : 6-13 pictures required
+
+♡゙ ADD REQUEST (PILIH SALAH SATU) 
+In rush : Yes (...)hour after pay/No
+Pair : (name + muse) x (name + muse) 
+Pict : Buyer/Seller+4.000 IDR
+Text replace : Replace name only/Buyer/Seller+12.000 IDR
+Ppt name : 
+Payment : Qris
+
+♡゙ REPLACE TEXT SLIDE 1
+Replace slide 1
+- HAPPY :
+- Mensiversary :
+- My love, Jaehan :
+- I want to be with you always and forever. Nothing in this world can replace you in my heart... :
+
+♡゙ REPLACE TEXT SLIDE 2
+- YOU ARE MY OTHER HALF :
+- Happiness entered my life as you began to fill a part of my days. little by little, I began to... :
+- Dear my love :
+- These aren’t just empty words meant to cheer you up, but words of love filled with sincerity from... :
+- Our Potrait : 
+
+♡゙ REPLACE TEXT SLIDE 3
+- MY HOPES FOR US :
+- With love, Achelya :
+- Second :
+- I hope we will always be honest with each other and trust one another. We won’t let others interfere in any... :
+- Another hope is that we can be a comfortable home for each other. There won’t be any lingering suspicion that... :
+
+♡゙ REPLACE TEXT SLIDE 4
+- 9/4/2026 :
+- I hope we can always overcome any obstacles in our relationship. May our love keep us together and help us... :
+- Our Special Day :
+- Achelya and Jaehan :
+
+♡゙ REPLACE TEXT SLIDE 5
+- Choosing you is a decision I will never regret. I would choose you again and again, no matter what. To me... :
+- Love : (max 2 words) 
+- Definition : (max 1 word) 
+- Love is you and me :
+- Thinking Out Loud :
+
+♡゙ REPLACE TEXT SLIDE 6
+- LAST BUT NOT LEAST :
+- Once again, happy sweet mensiversary for us, my love. I’m truly happy to have you by my side. Thank you for being my safe haven, for always... :
+- Achelya and Jaehan : (max 3 words) 
+- Stay together :
+- 9/4/2026 :`
+},
+
     "hellodonuts": {
         title: "Hello Donuts",
         category: "Foods Art",
@@ -294,6 +357,38 @@ Payment : Qris
 - Your girl, Oca :`
     },
 
+    "purejoy": {
+        title: "Pure Joy",
+        category: "Mensive Edition",
+        price: "Rp6.000",
+        images: ["images/64.PNG"],
+        recolor: "Unavailable recolor",
+        pics: "2 pics required",
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+
+Buyer name : (wajib isi) 
+Code : Pure Joy
+Price : 6.000 IDR
+Pics Required : 2 Pictures
+
+♡゙ ADD REQUEST 
+In rush : Yes (...)hour after pay/No
+Pair : 
+Text replace : Replace name only/Buyer/Seller+4,000 IDR
+Pict : Buyer/Seller+500 IDR
+Payment : Qris
+Note for seller : 
+
+♡゙ NEW TEXT  
+- Happy Monthsary : 
+- Another month has gone by with you, and it’s been so wonderful. Thank you for being the safest and most comfortable place for me... : (max 400 characters) 
+- Endless in love : 
+- Jaehan :
+- Crazy for you :
+- Catya :
+- Right back at you :`
+    },
+
     "purplies": {
         title: "Purplies",
         category: "Mensive Edition, Best Seller",
@@ -333,7 +428,7 @@ Payment : Qris
         images: ["images/59.PNG", "images/59.1.PNG", "images/59.2.PNG", "images/59.3.PNG", "images/59.4.PNG", "images/59.5.PNG"],
         recolor: "Unavailable recolor",
         pics: "6 pics required",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : PDF — MOONLIGHT 
@@ -427,7 +522,7 @@ Payment : Qris
         images: ["images/1.PNG", "images/1.1.PNG"],
         recolor: "Unavailable recolor",
         pics: "-",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : MY LOVELY 
@@ -457,7 +552,7 @@ Payment : Qris
         images: ["images/2.PNG", "images/2.2.PNG"],
         recolor: "Available recolor",
         pics: "1 pict required",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : HONEY BOX
@@ -488,7 +583,7 @@ Payment : Qris
         images: ["images/3.PNG"],
         recolor: "Unavailable recolor",
         pics: "-",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : PAWSITIVE JOY 
@@ -517,7 +612,7 @@ Note for seller :
         images: ["images/58.PNG", "images/58.1.PNG", "images/58.2.PNG", "images/58.3.PNG", "images/58.4.PNG", "images/58.5.PNG"],
         recolor: "Unavailable recolor",
         pics: "8 pics required",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : PPT — TIRAMISU LOVE 
@@ -583,7 +678,7 @@ Payment : Qris
         images: ["images/4.PNG", "images/4.1.PNG","images/4.2.PNG", "images/4.3.PNG"],
         recolor: "Unavailable recolor",
         pics: "-",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : FLIPBOOK—Post Card
@@ -614,7 +709,7 @@ Payment : Qris
         images: ["images/5.PNG", "images/5.1.PNG"],
         recolor: "Unavailable recolor",
         pics: "-",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : TEDDY POUCH 
@@ -646,7 +741,7 @@ Payment : Qris
         images: ["images/6.PNG", "images/6.1.PNG"],
         recolor: "Unavailable recolor",
         pics: "2 pics required",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : CANDLE LIGHT
@@ -691,7 +786,7 @@ Payment : Qris
         images: ["images/57.PNG", "images/57.1.PNG", "images/57.2.PNG", "images/57.3.PNG", "images/57.4.PNG", "images/57.5.PNG"],
         recolor: "Unavailable recolor",
         pics: "6 pics required",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : PDF — SUPER BOO 
@@ -743,7 +838,7 @@ Payment : Qris
         images: ["images/7.PNG"],
         recolor: "Unavailable recolor",
         pics: "-",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : NEW PAGE
@@ -779,7 +874,7 @@ Payment : Qris
         images: ["images/8.PNG"],
         recolor: "Unavailable recolor",
         pics: "2 pics required",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : ONLY SUNSHINE
@@ -813,7 +908,7 @@ Payment : Qris
         images: ["images/9.PNG", "images/9.1.PNG"],
         recolor: "Unavailable recolor",
         pics: "2 pics required",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : LOVE PAGE
@@ -855,7 +950,7 @@ Payment : Qris
         images: ["images/56.PNG", "images/56.1.PNG", "images/56.2.PNG", "images/56.3.PNG", "images/56.4.PNG", "images/56.5.PNG"],
         recolor: "Unavailable recolor",
         pics: "8 pics required",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : PDF — SWEETSARY
@@ -908,7 +1003,7 @@ Payment : Qris
         images: ["images/10.PNG"],
         recolor: "Unavailable recolor",
         pics: "2 pics required",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : BEST GIFT
@@ -941,7 +1036,7 @@ Payment : Qris
         images: ["images/11.1.PNG", "images/11.PNG"],
         recolor: "Unavailable recolor",
         pics: "1 pict required",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : MAKE A WISH 
@@ -972,7 +1067,7 @@ Payment : Qris
         images: ["images/12.PNG",],
         recolor: "Unavailable recolor",
         pics: "2 pics required",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : HAPPY PILL
@@ -1001,7 +1096,7 @@ Payment : Qris
         images: ["images/13.PNG",],
         recolor: "Unavailable recolor",
         pics: "3 pics required",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : LOVE LETTER
@@ -1023,6 +1118,37 @@ Payment : Qris
 - Your love, Ocaca :`
     },
 
+    "littlestar": {
+        title: "Little Star",
+        category: "Foods Art, V'Day Edition",
+        price: "Rp12.000",
+        images: ["images/62.PNG", "images/62.1.PNG"],
+        recolor: "Unavailable recolor",
+        pics: "-",
+        orderForm:`Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+
+Buyer name : (wajib isi) 
+Code : LITTLE STAR
+Price : 13.000 IDR
+
+♡゙ ADD REQUEST (PILIH SALAH SATU) 
+In rush : Yes (...)hour after pay/No
+Text replace : Replace name only/Buyer/Seller+4.000 IDR 
+Payment : Qris
+
+♡゙ REPLACE TEXT SLIDE 1
+- Will you be my Valentine? : (max 5 words) 
+- To, Jaehan : 
+- Made with love only for you, Sweetheart! : 
+
+♡゙ REPLACE TEXT SLIDE 2
+- For My Valentine : 
+- Happy you : 
+- Happy me : 
+- My world is so much more colorful since you came into it. Thank you for choosing me and being the most precious person in my life. You are one of the reasons I believe that true love exists. You're the best, and I'm grateful to have you. Happy Valentine's Day, my other half. I love you. Still you, today and forever : 
+- Love sign, Rachel : (max 4 words)`
+    },
+
     "macarons": {
         title: "Macarons",
         category: "Foods Art, Best Seller",
@@ -1030,7 +1156,7 @@ Payment : Qris
         images: ["images/14.2.PNG", "images/14.1.PNG", "images/14.PNG"],
         recolor: "Unavailable recolor",
         pics: "-",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : MACARONS 
@@ -1058,7 +1184,7 @@ Payment : Qris
         images: ["images/15.1.PNG",],
         recolor: "Unavailable recolor",
         pics: "1 pict required",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : CUTIE FLOWER 
@@ -1086,7 +1212,7 @@ Payment : Qris
         images: ["images/15.PNG"],
         recolor: "Unavailable recolor",
         pics: "-",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : CUTIE FLOWER 
@@ -1107,6 +1233,35 @@ Payment : Qris
 - Zocala :`
     },
 
+    "marked": {
+        title: "Mrrked Gift",
+        category: "Card Letter",
+        price: "Rp7.000",
+        images: ["images/60.PNG"],
+        recolor: "Unavailable recolor",
+        pics: "1 pict required",
+        orderForm:`Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+
+Buyer name : (wajib isi) 
+Code : MARKED GIFT
+Price : 7.000 IDR
+Pict   : 1 picture required 
+
+♡゙ ADD REQUEST 
+In rush : Yes (...)hour after pay/No
+Muse + name : 
+Pict : Buyer only
+Text replace : Replace name only/Buyer/Seller+5.000
+Payment : Qris
+
+♡゙ REPLACE TEXT 
+- Happy Girlfriend's Day : 
+- Marked by Zayad : 
+- Dear My girl, Arabella : 
+- Here's your gift : 
+- Today everyone is celebrating gilrfriend's day. I will also celebrate it and show the world about my most beloved girlfriend which is you... : (max 350 characters)`
+    },
+
     "homiest": {
         title: "Homiest",
         category: "Card Letter",
@@ -1114,7 +1269,7 @@ Payment : Qris
         images: ["images/16.PNG", "images/16.1.PNG"],
         recolor: "Unavailable recolor",
         pics: "2 pics required",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : HOMIEST
@@ -1186,7 +1341,7 @@ Payment : Qris
         images: ["images/55.PNG"],
         recolor: "Unavailable recolor",
         pics: "1 pict required",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : ONE AND ONLY 
@@ -1220,7 +1375,7 @@ Payment : Qris
         ],
         recolor: "Unavailable recolor",
         pics: "5 pics required",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : ICONS — BELONG TO YOU
@@ -1261,7 +1416,7 @@ Payment : Qris
         images: ["images/19.PNG", "images/19.1.PNG", "images/19.2.PNG"],
         recolor: "Unavailable recolor",
         pics: "4 pics required",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : ICONS — VIOLET LOVE
@@ -1298,7 +1453,7 @@ Payment : Qris
         images: ["images/20.PNG", "images/20.1.PNG"],
         recolor: "Unavailable recolor",
         pics: "-",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : M/F — BEST AWARD
@@ -1322,7 +1477,7 @@ Payment : Qris
         images: ["images/21.PNG", "images/21.1.PNG"],
         recolor: "Unavailable recolor",
         pics: "-",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : M/F — CERTIFIES
@@ -1347,7 +1502,7 @@ Payment : Qris
         images: ["images/22.PNG", "images/22.1.PNG", "images/22.2.PNG"],
         recolor: "Unavailable recolor",
         pics: "-",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : ICONS — NAVY LOVE
@@ -1383,7 +1538,7 @@ Payment : Qris
         images: ["images/23.PNG", "images/23.1.PNG"],
         recolor: "Unavailable recolor",
         pics: "-",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : SWEET FLOWER 
@@ -1410,7 +1565,7 @@ Payment : Qris
         images: ["images/24.PNG", "images/24.1.PNG"],
         recolor: "Unavailable recolor",
         pics: "2 pics required",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : LOVE DATE
@@ -1447,7 +1602,7 @@ Payment : Qris
         images: ["images/25.PNG", "images/25.1.PNG"],
         recolor: "Unavailable recolor",
         pics: "-",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : TICKETIES 
@@ -1473,7 +1628,7 @@ Payment : Qris
         images: ["images/26.PNG", "images/26.1.PNG"],
         recolor: "Unavailable recolor",
         pics: "3 pics required",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : LOVE IS US
@@ -1508,7 +1663,7 @@ Payment : Qris
         images: ["images/27.PNG", "images/27.1.PNG"],
         recolor: "Unavailable recolor",
         pics: "2 pics required",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : LOVE FOLDER 
@@ -1539,7 +1694,7 @@ Note for seller :
         images: ["images/28.PNG"],
         recolor: "Unavailable recolor",
         pics: "2 pics required",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : LOVE STAR
@@ -1569,7 +1724,7 @@ Payment : Qris
         images: ["images/29.PNG"],
         recolor: "Unavailable recolor",
         pics: "1 pict required",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : YELLOW PAGE
@@ -1595,7 +1750,7 @@ Payment : Qris
         images: ["images/30.PNG", "images/30.1.PNG"],
         recolor: "Unavailable recolor",
         pics: "-",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : BEAR COUPLE
@@ -1623,7 +1778,7 @@ Payment : Qris
         images: ["images/31.PNG", "images/3.1.PNG"],
         recolor: "Unavailable recolor",
         pics: "4 pics required",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : ROMANTIC LOVE 
@@ -1652,7 +1807,7 @@ Payment : Qris
         images: ["images/32.PNG"],
         recolor: "Unavailable recolor",
         pics: "2 pics required",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : BLUE LOVE
@@ -1683,7 +1838,7 @@ Payment : Qris
         images: ["images/33.PNG"],
         recolor: "Unavailable recolor",
         pics: "2 pics required",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : TEXT LOVE 
@@ -1713,7 +1868,7 @@ Payment : Qris
         images: ["images/34.PNG"],
         recolor: "Unavailable recolor",
         pics: "1 pict required",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : ADORE YOU
@@ -1738,7 +1893,7 @@ Payment : Qris
         images: ["images/35.PNG"],
         recolor: "Unavailable recolor",
         pics: "2 pics required",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : YOU AND ME 
@@ -1773,7 +1928,7 @@ Payment : Qris
         images: ["images/36.PNG"],
         recolor: "Unavailable recolor",
         pics: "3 pics required",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : A NOT SO LOVE LETTER 
@@ -1801,7 +1956,7 @@ Payment : Qris
         images: ["images/37.PNG"],
         recolor: "Unavailable recolor",
         pics: "2 pics required",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : A LETTER
@@ -1831,7 +1986,7 @@ Payment : Qris
         images: ["images/38.PNG"],
         recolor: "Unavailable recolor",
         pics: "1 pict required",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : LOVE COUPON 
@@ -1856,7 +2011,7 @@ Payment : Qris
         images: ["images/39.PNG"],
         recolor: "Unavailable recolor",
         pics: "2 pics required",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : MY BELOVED
@@ -1888,7 +2043,7 @@ Payment : Qris
         images: ["images/40.PNG", "images/40.1.PNG"],
         recolor: "Unavailable recolor",
         pics: "1 pict required",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : LOVE NOTES 
@@ -1917,7 +2072,7 @@ Payment : Qris
         images: ["images/41.PNG"],
         recolor: "Unavailable recolor",
         pics: "6 pics required",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : LOVE ALBUM
@@ -1947,7 +2102,7 @@ Payment : Qris
         images: ["images/42.PNG", "images/42.1.PNG"],
         recolor: "Unavailable recolor",
         pics: "2 pics required",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : LOVE BEAR
@@ -1976,7 +2131,7 @@ Payment : Qris
         images: ["images/43.PNG"],
         recolor: "Unavailable recolor",
         pics: "2 pics required",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : BEATING HEART 
@@ -2011,7 +2166,7 @@ Payment : Qris
         images: ["images/44.PNG", "images/44.1.PNG"],
         recolor: "Unavailable recolor",
         pics: "1 pict required",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : HAPPY HAPPIEST 
@@ -2040,7 +2195,7 @@ Payment : Qris
         images: ["images/45.PNG"],
         recolor: "Unavailable recolor",
         pics: "-",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : TIC TAC TOE
@@ -2066,7 +2221,7 @@ Payment : Qris
         images: ["images/46.PNG"],
         recolor: "Unavailable recolor",
         pics: "2 pics required",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : LOVELYSARY 
@@ -2097,7 +2252,7 @@ Payment : Qris
         images: ["images/47.PNG"],
         recolor: "Unavailable recolor",
         pics: "1 pict required",
-        orderForm: `Hi, Bluffa! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : M — WHITE LETTER 
@@ -2127,7 +2282,7 @@ Payment : Qris
         images: ["images/48.PNG"],
         recolor: "Unavailable recolor",
         pics: "1 pict required",
-        orderForm: `Hi, Bluffa! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : F — WHITE LETTER 
@@ -2156,7 +2311,7 @@ Payment : Qris
         images: ["images/49.PNG"],
         recolor: "Unavailable recolor",
         pics: "2 pics required",
-        orderForm: `Hi, Bluffa! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : JOURNAL DATE IDEAS 
@@ -2193,7 +2348,7 @@ Payment : Qris
         images: ["images/50.PNG"],
         recolor: "Unavailable recolor",
         pics: "3 pics required",
-        orderForm: `Hi, Bluffa! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : JOURNAL DATE IDEAS 
@@ -2230,7 +2385,7 @@ Payment : Qris
         images: ["images/51.PNG", "images/51.1.PNG", "images/51.2.PNG"],
         recolor: "Unavailable recolor",
         pics: "-",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : YELLOW RECEIPTIFY
@@ -2260,7 +2415,7 @@ DATE (mm/dd/yyyy) :
         images: ["images/52.PNG", "images/52.1.PNG", "images/52.2.PNG"],
         recolor: "Unavailable recolor",
         pics: "-",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : WHITE RECEIPTIFY
@@ -2290,7 +2445,7 @@ DATE (mm/dd/yyyy) :
         images: ["images/53.PNG", "images/53.1.PNG", "images/53.2.PNG"],
         recolor: "Unavailable recolor",
         pics: "-",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : YELLOW TOP FIVE
@@ -2321,7 +2476,7 @@ TOP 5 REASONS WHY I LOVE YOU
         images: ["images/54.PNG", "images/54.1.PNG", "images/54.2.PNG"],
         recolor: "Unavailable recolor",
         pics: "-",
-        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
 
 Buyer name : (wajib isi) 
 Code : WHITE TOP FIVE
