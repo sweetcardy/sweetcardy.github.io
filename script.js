@@ -405,7 +405,7 @@ Replace slide 1
         title: "Lovehub",
         category: "Website",
         price: "Rp15.000",
-        images: ["images/67.PNG", "images/67.1.PNG", "images/67.2.PNG", "images/67.3.PNG", "images/67.4.PNG", "images/67.5.PNG", "images/67.6.PNG", "images/67.7.PNG", "images/67.8.PNG", "images/67.9.PNG", "images/67.10.PNG", "images/67.11.PNG"],
+        images: ["images/67.PNG", "images/67.1.PNG", "images/67.2.PNG", "images/67.3.PNG", "images/67.4.PNG", "images/67.5.PNG", "images/67.6.PNG", "images/67.7.PNG", "images/67.8.jpg", "images/67.9.PNG", "images/67.10.PNG", "images/67.11.PNG"],
         recolor: "Unavailable recolor",
         pics: "7 pics required",
         orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
@@ -441,7 +441,7 @@ Song :
         title: "TEMPLATE - Lovehub",
         category: "Website",
         price: "Rp12.000",
-        images: ["images/67.PNG", "images/67.1.PNG", "images/67.2.PNG", "images/67.3.PNG", "images/67.4.PNG", "images/67.5.PNG", "images/67.6.PNG", "images/67.7.PNG", "images/67.8.PNG", "images/67.9.PNG", "images/67.10.PNG", "images/67.11.PNG"],
+        images: ["images/67.PNG", "images/67.1.PNG", "images/67.2.PNG", "images/67.3.PNG", "images/67.4.PNG", "images/67.5.PNG", "images/67.6.PNG", "images/67.7.PNG", "images/67.8.jpg", "images/67.9.PNG", "images/67.10.PNG", "images/67.11.PNG"],
         recolor: "Unavailable recolor",
         pics: "-",
         orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
