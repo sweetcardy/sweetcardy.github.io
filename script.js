@@ -1,4 +1,4 @@
-const nomorWhatsApp = "6283178543794";
+const nomorWhatsApp = "083193394842";
 const usernameTelegram = "memaayu";
 
 const searchInput = document.querySelector(".search-box input");
@@ -27,6 +27,38 @@ const rushModal = document.getElementById("rushModal");
 const closeRushModal = document.getElementById("closeRushModal");
 
 const dataProduk = {
+    "tender": {
+        title: "Tender Postage",
+        category: "Teddy Art, Card Letter",
+        price: "Rp8.000",
+        images: ["images/65.PNG", "images/65.1.PNG", "images/65.2.PNG"],
+        recolor: "Available recolor background",
+        pics: "3 pics required",
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+
+Buyer name : (wajib isi) 
+Code : TENDER POSTAGE
+Price : 8.000 IDR
+Pics Required : 3 Pictures
+
+♡゙ ADD REQUEST 
+In rush : Yes (...)hour after pay/No
+Pair : (name+muse) x (name+muse) 
+Text replace : Replace name only/Buyer/Seller+4000
+Pict : Buyer/Seller+1,000
+Background : White/Maroon/Navy/#(isi kode warna) 
+Payment : Qris
+Note for seller : 
+
+♡゙ NEW TEXT
+- Home with you : (max 3 words)
+- You're my favorite person, my safe place, my always. Loving you feels like coming home to warm light after a long day. I never knew my heart could be this full until you... : (max 300 characters)
+
+- Jadid :
+- With love, Moorenzo :
+- You're the best thing that ever happened to me. : (max 50 characters)`
+    },
+
     "mytotebag": {
         title: "My Tote Bag",
         category: "Flower Art",
