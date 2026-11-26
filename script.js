@@ -59,6 +59,77 @@ Note for seller :
 - You're the best thing that ever happened to me. : (max 50 characters)`
     },
 
+    "blushcoca": {
+        title: "Blush Cocoa",
+        category: "Flipbook, Mensive edition",
+        price: "Rp15.000",
+        images: ["images/68.PNG", "images/68.1.PNG", "images/68.2.PNG", "images/68.3.PNG",
+            "images/68.4.PNG", "images/68.5.PNG", "images/68.6.PNG", "images/68.7.PNG",
+            "images/68.8.PNG", "images/68.9.PNG"
+            ],
+        recolor: "Unavailable recolor",
+        pics: "8 pics required",
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+
+Buyer name : (wajib isi) 
+Code : Flipbook — Blush Cocoa
+Price : 15.000 IDR
+Pict   : 8 pictures required
+
+♡゙ ADD REQUEST (PILIH SALAH SATU) 
+In rush : Yes (...)hour after pay/No
+Pair : (name + muse) x (name + muse) 
+Pict : Buyer/Seller+4.000 IDR
+Text replace : Replace name only/Buyer/Seller+12.000 IDR
+Payment : Qris
+
+♡゙ REPLACE TEXT SLIDE 1
+- Happy Mensiversary :
+- I'm happy we're still together. Let's keep this going and celebrate this day every month :
+
+♡゙ REPLACE TEXT SLIDE 2
+- YOUR GIFT :
+
+♡゙ REPLACE TEXT SLIDE 3
+- Thank you for always being so easy to talk about anything. All of this come with my deepest thanks :
+- My Love, Jaehan : 
+
+♡゙ REPLACE TEXT SLIDE 4
+- Us in polaroid :
+- I've kept it very good condition so we can look at it together :
+
+♡゙ REPLACE TEXT SLIDE 6
+- Today is our day :
+- 28/07/26 : 
+
+♡゙ REPLACE TEXT SLIDE 7
+- Zocalana and Jaehan :
+
+♡゙ REPLACE TEXT SLIDE 8
+- Mensive Letter : 
+
+♡゙ REPLACE TEXT SLIDE 9
+- You are everything I have ever dreamed of and even more. I want you. All of you. At your best and at your worst, and everything in between... :
+
+♡゙ REPLACE TEXT SLIDE 10
+- SEE YOU NEXT MONTH : 
+- There i found a love inside you. My heart speaks your name. You're my love, my sanity <3 :`
+    },
+
+    "blushcocaa": {
+        title: "TEMPLATE - Blush Cocoa",
+        category: "Flipbook, Mensive edition",
+        price: "Rp12.000",
+        images: ["images/68.PNG", "images/68.1.PNG", "images/68.2.PNG", "images/68.3.PNG", "images/68.4.PNG", "images/68.5.PNG", "images/68.6.PNG", "images/68.7.PNG", "images/68.8.PNG", "images/68.9.PNG"],
+        recolor: "Unavailable recolor",
+        pics: "-",
+        orderForm: `Hi, Memayu I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+
+Buyer name : (wajib isi) 
+Code : TEMPLATE—BLUSH COCOA
+Price : 12.000 IDR`
+    },
+
     "mytotebag": {
         title: "My Tote Bag",
         category: "Flower Art",
@@ -329,6 +400,56 @@ Replace slide 1
 - Stay together :
 - 9/4/2026 :`
 },
+
+"lovehub": {
+        title: "Lovehub",
+        category: "Website",
+        price: "Rp15.000",
+        images: ["images/67.PNG", "images/67.1.PNG", "images/67.2.PNG", "images/67.3.PNG", "images/67.4.PNG", "images/67.5.PNG", "images/67.6.PNG", "images/67.7.PNG", "images/67.8.PNG", "images/67.9.PNG", "images/67.10.PNG", "images/67.11.PNG"],
+        recolor: "Unavailable recolor",
+        pics: "7 pics required",
+        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+
+Buyer name : (wajib isi) 
+Code : LOVE HUB — full service
+Price : 15.000 IDR
+
+♡゙ ADD REQUEST 
+In rush : Yes (...)hour after pay/No
+Pair : (name+muse) x (name+muse) 
+Text replace : Replace name only/Buyer
+Payment : Qris
+Note for seller : 
+
+Code : (4 angka) 
+Hint : 
+Song :
+
+♡゙ NEW TEXT  
+- Welcome to Anna's Love Hub : (max 5 words) 
+- Welcome Mr. Jaehan : 
+- You look so Gorgeous. whatever you wear looks good on you : 
+- I fall in lovr with you again and again every day. I love you so much! : 
+- My handsome boyfriend : 
+- You come into my lebih fe and give me the happiness i had always dreamed of. You complete me and take such good care of me. I'm grateful for that. I love you so much : 
+- You can redeem it to get anything from me : 
+- Song that remind me of you : 
+- I love you and will always love you, Jae! :`
+    },
+
+    "lovehubtemp": {
+        title: "TEMPLATE - Lovehub",
+        category: "Website",
+        price: "Rp12.000",
+        images: ["images/67.PNG", "images/67.1.PNG", "images/67.2.PNG", "images/67.3.PNG", "images/67.4.PNG", "images/67.5.PNG", "images/67.6.PNG", "images/67.7.PNG", "images/67.8.PNG", "images/67.9.PNG", "images/67.10.PNG", "images/67.11.PNG"],
+        recolor: "Unavailable recolor",
+        pics: "-",
+        orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+
+Buyer name : (wajib isi) 
+Code : TEMPLATE—LOVE HUB 
+Price : 12.000 IDR`
+    },
 
     "hellodonuts": {
         title: "Hello Donuts",
@@ -809,6 +930,74 @@ Payment : Qris
 - For my Jaehan : (max. 3 words) 
 - I love you with all my heart, and that love grows stronger every day. You've brought so much happiness and meaning into my life, and I'm endlessly grateful for every moment we share... : (max 200 characters)
 - Your oca :`
+    },
+
+    "canvasofus": {
+        title: "Canvas Of Us",
+        category: "Website",
+        price: "Rp15.000",
+        images: ["images/66.PNG", "images/66.1.jpg", "images/66.2.jpg",
+            "images/66.3.jpg", "images/66.4.PNG", "images/66.5.PNG",
+            "images/66.6.PNG"
+            ],
+        recolor: "Unavailable recolor",
+        pics: "8 pics required",
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+
+Buyer name : (wajib isi) 
+Code : CANVAS OF US — full service
+Price : 15.000 IDR
+Pics Required : 8 Pictures
+
+♡゙ ADD REQUEST 
+In rush : Yes (...)hour after pay/No
+Pair : (name+muse) x (name+muse) 
+Text replace : Replace name only/Buyer/Seller+9,000
+Pict : Buyer/Seller+2,500
+Payment : Qris
+Note for seller : 
+
+♡゙ NEW TEXT  
+- Welcome To Achelya Lovely Page : (max 6 words) 
+- Special For You, Jay! : 
+- 100 DAYS WITH YOU, MY HANDSOME BOYFRIEND <3 :
+- Let's Go! : (max 2 words) 
+- Dandelions by Ruth B. : 
+- Music That Remind Me Of Us : 
+
+- November, 5th 2026 : 
+- Dear Boyfie : (max 2 words) 
+- Love sign, Achel : (max 3 words) 
+- MY ONE AND ONLY : 
+
+- Others might see this relationship as still in its early stages, but to me, it’s been quite a long journey because we’ve been through so much together—both the good times and the bad :
+- I Love You : 
+- I FEEL SO MUCH HAPPINESS WHEN I’M WITH YOU :
+
+- Thank you for choosing me to be the home you come back to, the partner who’s by your side through thick and thin, and someone who’s always your top priority... : 
+- Special gift for you, my love. Hope you like it! 
+
+- Another Gift For Jay! : 
+- Made With Love : 
+- Ready To Open? : 
+- Love Letter : 
+
+- I love everything about you, and I don’t care about your flaws. I’ve fallen so deeply in love with you. Stay just the way I’ve known you to be until today... : 
+- I hope you always find your way back to me :`
+    },
+
+    "canvasofustemp": {
+        title: "TEMPLATE - Canvas Of Us",
+        category: "Website",
+        price: "Rp12.000",
+        images: ["images/66.PNG", "images/66.1.jpg", "images/66.2.jpg", "images/66.3.jpg", "images/66.4.PNG", "images/66.5.PNG", "images/66.6.PNG"],
+        recolor: "Unavailable recolor",
+        pics: "-",
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+
+Buyer name : (wajib isi) 
+Code : TEMPLATE—CANVAS OF US
+Price : 12.000 IDR`
     },
 
     "superboo": {
@@ -1364,6 +1553,72 @@ Payment : Qris
 - Thank you for your hard work. You did well, my love. I know you always give your best for everything you do and i'm so proud of you :
 
 - Love sign, Zocala :`
+    },
+
+    "museum": {
+        title: "The Museum Of Us",
+        category: "Website",
+        price: "Rp15.000",
+        images: ["images/69.PNG", "images/69.1.PNG", "images/69.2.PNG",
+            "images/69.3.PNG", "images/69.4.PNG", "images/69.5.PNG",
+            "images/69.6.PNG", "images/69.7.PNG", "images/69.8.PNG",
+            "images/69.9.PNG"
+        ],
+        recolor: "Unavailable recolor",
+        pics: "7 pics required",
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+
+Buyer name : (wajib isi) 
+Code : The Museum Of us — full service
+Price : 15.000 IDR
+Pics Required : 7 Pictures
+
+♡゙ ADD REQUEST 
+In rush : Yes (...)hour after pay/No
+Pair : (name+muse) x (name+muse) 
+Text replace : Replace name only/Buyer/Seller+9,000
+Pict : Buyer/Seller+2,500
+Type : Desktop/Mobile
+Payment : Qris
+Note for seller : 
+
+♡゙ NEW TEXT  
+- The Museum of Us : 
+- Please touch the exhibits. They're ours. : 
+- Enjoy! : 
+- Grab your ticket: 
+
+- I'd keep you in my collection for a lifetime. : 
+- Still choosing you. : 
+- Home is you. : 
+- If I could frame one thing forever, it would be you. :
+- ILY more than yesterday, less than tomorrow. : 
+- Yours, always. : 
+- Gallery One: Where It Started. :
+
+- I didn't know I was walking into the best chapter of my life. Looking back at these photos, I can see it... : (max 400 characters)
+
+- Those days felt like nothing, and now they're everything. You make boring Tuesdays feel like something worth framing. Please keep doing that for a very long time... : (max 400 characters) 
+
+- This room is empty on purpose. It's where the next photos go, the dumb inside jokes we haven't invented yet... : (max 400 characters)`
+    },
+
+    "museumtemp": {
+        title: "TEMPLATE - The Museum Of Us",
+        category: "Website",
+        price: "Rp12.000",
+        images: ["images/69.PNG", "images/69.1.PNG", "images/69.2.PNG",
+            "images/69.3.PNG", "images/69.4.PNG", "images/69.5.PNG",
+            "images/69.6.PNG", "images/69.7.PNG", "images/69.8.PNG",
+            "images/69.9.PNG"
+        ],
+        recolor: "Unavailable recolor",
+        pics: "-",
+        orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+
+Buyer name : (wajib isi) 
+Code : TEMPLATE—TMOS(desktop/mobile) 
+Price : 12.000 IDR`
     },
 
     "oneandonly": {
@@ -2034,6 +2289,107 @@ Payment : Qris
 - Only Jaehan can use this love coupon :
 - Applies in various situations :
 - WITH LOVE, ZOCALA :`
+    },
+
+    "flipbook02": {
+        title: "Flipbook 02",
+        category: "Flipbpk, V'Day edition",
+        price: "Rp18.000",
+        images: ["images/70.PNG", "images/70.1.PNG", "images/70.2.PNG",
+            "images/70.3.PNG", "images/70.4.PNG", "images/70.5.PNG", "images/70.6.PNG"
+        ],
+        recolor: "Unavailable recolor",
+        pics: "9 pics required",
+        orderForm:`Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+
+Buyer name : (wajib isi) 
+Code : FLIPBOOK—02
+Price : 18.000 IDR
+Pictures : 7 pics
+
+♡゙ ADD REQUEST (PILIH SALAH SATU) 
+In rush : Yes (...)hour after pay/No
+Text Replace : Replace name only/Buyer/Seller+8.000 IDR 
+Song : No replace/buyer
+Payment : Qris
+
+♡゙ REPLACE TEXT SLIDE 1
+- Here's Your Valentine's gift : 
+
+♡゙ REPLACE TEXT SLIDE 2
+- Will you be my Valentine? : 
+- Jaehan Pramudya : 
+
+♡゙ REPLACE TEXT SLIDE 3
+- cewenya : (max 1 word)
+- cowonya : (max 1 word) 
+- I Will Say : (max 3 words) 
+- Every second, minute, hour we spend together becomes one of the best memories of my life. I love every interaction we build to create a warm relationship. I fall in love with you every day. Happy Valentine's Day! Thank you for being a part of my life. : 
+
+♡゙ REPLACE TEXT SLIDE 4
+- Important : 
+- Valentine's Letter : 
+- For, Jaehan : 
+- From, Rachel : 
+- Please read carefully : 
+
+♡゙ REPLACE TEXT SLIDE 5
+- I chose you without a moment's hesitation. You complete me with your sweetness and warmth. I am the luckiest person in the world to have someone as wonderful as you. :
+-  I want to love and hold you every moment. I want to tell you that I love you as much as I possibly can. You are the reason my world is so beautiful and joyful :
+- With sign, Your Lover : 
+
+♡゙ REPLACE TEXT SLIDE 6
+- Forever With You : 
+- All I can think about right now is spending as much time with you as we can. I am already bound to you. It feels almost crazy when I am not with you. My heart is completely filled with you. My days are joyful because you are in them. I truly love you with all my heart. : 
+
+♡゙ REPLACE TEXT SLIDE 7
+- Ticket : (max 2 words) 
+- MOVIE DATE : (max 3 words) 
+- You can choose any movie for us to watch tonight : 
+- Love Coupon : (max 2 words) 
+- Hug & Kiss : (max 3 words) 
+- uses, unlimited :
+- Expires, Never : 
+- Claim now! :`
+    },
+
+    "flipbook03": {
+        title: "Flipbook 03",
+        category: "Flipbpk, Bday edition",
+        price: "Rp10.000",
+        images: ["images/71.PNG", "images/71.1.PNG"],
+        recolor: "Unavailable recolor",
+        pics: "3 pics required",
+        orderForm:`Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
+
+Buyer name : (wajib isi) 
+Code : Flippbok—03
+Price : 10.000 IDR
+Pict   : 3 pictures required
+
+♡゙ ADD REQUEST (PILIH SALAH SATU) 
+In rush : Yes (...)hour after pay/No 
+Pict : Buyer/Seller+1.000 IDR
+Text replace : Replace name only/Buyer/Seller+5.000 IDR
+Payment : Qris
+
+♡゙ REPLACE TEXT SLIDE 1
+- Birthday News :
+- SATURDAY, 11TH APRIL 2026 : 
+- NOW : 
+- TODAY IS AMAYA DAY :
+- May your day be filled with beautiful things:
+- Happy Birthday : 
+
+♡゙ REPLACE TEXT SLIDE 2
+- BIRTHDAY TIME :
+- Party And Gift :
+- SPECIAL FOR YOU, AMAYA : 
+- One day in April : 
+- 9 : 
+- Today marks the beginning of a new chapter, as you turn another year older. May you always be under God’s protection and surrounded by good people... 
+- AMAYA BIRYHDAY : 
+- 11TH APRIL 2026 :`
     },
 
     "mybeloved": {
