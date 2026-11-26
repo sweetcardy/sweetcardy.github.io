@@ -63,9 +63,9 @@ Note for seller :
         title: "Blush Cocoa",
         category: "Flipbook, Mensive edition",
         price: "Rp15.000",
-        images: ["images/68.PNG", "images/68.1.PNG", "images/68.2.PNG", "images/68.3.PNG",
-            "images/68.4.PNG", "images/68.5.PNG", "images/68.6.PNG", "images/68.7.PNG",
-            "images/68.8.PNG", "images/68.9.PNG"
+        images: ["images/68.png", "images/68.1.png", "images/68.2.png", "images/68.3.png",
+            "images/68.4.png", "images/68.5.png", "images/68.6.png", "images/68.7.png",
+            "images/68.8.png", "images/68.9.png"
             ],
         recolor: "Unavailable recolor",
         pics: "8 pics required",
@@ -120,7 +120,10 @@ Payment : Qris
         title: "TEMPLATE - Blush Cocoa",
         category: "Flipbook, Mensive edition",
         price: "Rp12.000",
-        images: ["images/68.PNG", "images/68.1.PNG", "images/68.2.PNG", "images/68.3.PNG", "images/68.4.PNG", "images/68.5.PNG", "images/68.6.PNG", "images/68.7.PNG", "images/68.8.PNG", "images/68.9.PNG"],
+        images: ["images/68.png", "images/68.1.png", "images/68.2.png", "images/68.3.png",
+            "images/68.4.png", "images/68.5.png", "images/68.6.png", "images/68.7.png",
+            "images/68.8.png", "images/68.9.png"
+        ],
         recolor: "Unavailable recolor",
         pics: "-",
         orderForm: `Hi, Memayu I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
@@ -405,7 +408,7 @@ Replace slide 1
         title: "Lovehub",
         category: "Website",
         price: "Rp15.000",
-        images: ["images/67.PNG", "images/67.1.PNG", "images/67.2.PNG", "images/67.3.PNG", "images/67.4.PNG", "images/67.5.PNG", "images/67.6.PNG", "images/67.7.PNG", "images/67.8.jpg", "images/67.9.PNG", "images/67.10.PNG", "images/67.11.PNG"],
+        images: ["images/67.png", "images/67.1.png", "images/67.2.png", "images/67.3.png", "images/67.4.png", "images/67.5.png", "images/67.6.png", "images/67.7.png", "images/67.8.jpg", "images/67.9.jpg", "images/67.10.png", "images/67.11.png"],
         recolor: "Unavailable recolor",
         pics: "7 pics required",
         orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
@@ -441,7 +444,7 @@ Song :
         title: "TEMPLATE - Lovehub",
         category: "Website",
         price: "Rp12.000",
-        images: ["images/67.PNG", "images/67.1.PNG", "images/67.2.PNG", "images/67.3.PNG", "images/67.4.PNG", "images/67.5.PNG", "images/67.6.PNG", "images/67.7.PNG", "images/67.8.jpg", "images/67.9.PNG", "images/67.10.PNG", "images/67.11.PNG"],
+        images: ["images/67.png", "images/67.1.png", "images/67.2.png", "images/67.3.png", "images/67.4.png", "images/67.5.png", "images/67.6.png", "images/67.7.png", "images/67.8.jpg", "images/67.9.jpg", "images/67.10.png", "images/67.11.png"],
         recolor: "Unavailable recolor",
         pics: "-",
         orderForm: `Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
@@ -936,8 +939,8 @@ Payment : Qris
         title: "Canvas Of Us",
         category: "Website",
         price: "Rp15.000",
-        images: ["images/66.PNG", "images/66.1.jpg", "images/66.2.jpg",
-            "images/66.3.jpg", "images/66.4.PNG", "images/66.5.PNG",
+        images: ["images/66.png", "images/66.1.jpg", "images/66.2.jpg",
+            "images/66.3.jpg", "images/66.4.png", "images/66.5.png",
             "images/66.6.PNG"
             ],
         recolor: "Unavailable recolor",
@@ -990,7 +993,7 @@ Note for seller :
         title: "TEMPLATE - Canvas Of Us",
         category: "Website",
         price: "Rp12.000",
-        images: ["images/66.PNG", "images/66.1.jpg", "images/66.2.jpg", "images/66.3.jpg", "images/66.4.PNG", "images/66.5.PNG", "images/66.6.PNG"],
+        images: ["images/66.png", "images/66.1.jpg", "images/66.2.jpg", "images/66.3.jpg", "images/66.4.png", "images/66.5.png", "images/66.6.png"],
         recolor: "Unavailable recolor",
         pics: "-",
         orderForm: `Hi, Memayu! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
@@ -1559,10 +1562,10 @@ Payment : Qris
         title: "The Museum Of Us",
         category: "Website",
         price: "Rp15.000",
-        images: ["images/69.PNG", "images/69.1.PNG", "images/69.2.PNG",
-            "images/69.3.PNG", "images/69.4.PNG", "images/69.5.PNG",
-            "images/69.6.PNG", "images/69.7.PNG", "images/69.8.PNG",
-            "images/69.9.PNG"
+        images: ["images/69.png", "images/69.1.png", "images/69.2.png",
+            "images/69.3.png", "images/69.4.png", "images/69.5.png",
+            "images/69.6.png", "images/69.7.png", "images/69.8.png",
+            "images/69.9.png"
         ],
         recolor: "Unavailable recolor",
         pics: "7 pics required",
@@ -1607,10 +1610,10 @@ Note for seller :
         title: "TEMPLATE - The Museum Of Us",
         category: "Website",
         price: "Rp12.000",
-        images: ["images/69.PNG", "images/69.1.PNG", "images/69.2.PNG",
-            "images/69.3.PNG", "images/69.4.PNG", "images/69.5.PNG",
-            "images/69.6.PNG", "images/69.7.PNG", "images/69.8.PNG",
-            "images/69.9.PNG"
+        images: ["images/69.png", "images/69.1.png", "images/69.2.png",
+            "images/69.3.png", "images/69.4.png", "images/69.5.png",
+            "images/69.6.png", "images/69.7.png", "images/69.8.png",
+            "images/69.9.png"
         ],
         recolor: "Unavailable recolor",
         pics: "-",
@@ -2295,8 +2298,8 @@ Payment : Qris
         title: "Flipbook 02",
         category: "Flipbpk, V'Day edition",
         price: "Rp18.000",
-        images: ["images/70.PNG", "images/70.1.PNG", "images/70.2.PNG",
-            "images/70.3.PNG", "images/70.4.PNG", "images/70.5.PNG", "images/70.6.PNG"
+        images: ["images/70.png", "images/70.1.png", "images/70.2.png",
+            "images/70.3.png", "images/70.4.png", "images/70.5.png", "images/70.6.png"
         ],
         recolor: "Unavailable recolor",
         pics: "9 pics required",
@@ -2357,7 +2360,7 @@ Payment : Qris
         title: "Flipbook 03",
         category: "Flipbpk, Bday edition",
         price: "Rp10.000",
-        images: ["images/71.PNG", "images/71.1.PNG"],
+        images: ["images/71.png", "images/71.1.png"],
         recolor: "Unavailable recolor",
         pics: "3 pics required",
         orderForm:`Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
