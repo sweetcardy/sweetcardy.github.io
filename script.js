@@ -941,7 +941,7 @@ Payment : Qris
         price: "Rp15.000",
         images: ["images/66.png", "images/66.1.jpg", "images/66.2.jpg",
             "images/66.3.jpg", "images/66.4.png", "images/66.5.png",
-            "images/66.6.PNG"
+            "images/66.6.png"
             ],
         recolor: "Unavailable recolor",
         pics: "8 pics required",
@@ -2298,8 +2298,8 @@ Payment : Qris
         title: "Flipbook 02",
         category: "Flipbpk, V'Day edition",
         price: "Rp18.000",
-        images: ["images/70.png", "images/70.1.png", "images/70.2.png",
-            "images/70.3.png", "images/70.4.png", "images/70.5.png", "images/70.6.png"
+        images: ["images/70.PNG", "images/70.1.PNG", "images/70.2.PNG",
+            "images/70.3.PNG", "images/70.4.PNG", "images/70.5.PNG", "images/70.6.PNG"
         ],
         recolor: "Unavailable recolor",
         pics: "9 pics required",
@@ -2360,7 +2360,7 @@ Payment : Qris
         title: "Flipbook 03",
         category: "Flipbpk, Bday edition",
         price: "Rp10.000",
-        images: ["images/71.png", "images/71.1.png"],
+        images: ["images/71.PNG", "images/71.1.PNG"],
         recolor: "Unavailable recolor",
         pics: "3 pics required",
         orderForm:`Hi, Majia! I have read @sweetcardy's terms and conditions t.me/sweetcardy/3052 and would like to place an order. These are my order details. 
